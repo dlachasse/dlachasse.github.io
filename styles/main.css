@@ -251,7 +251,42 @@ header .sub-head {
   }
 
   line {
-    font-family: \00003102;
+    font-family: \00003101;
+  }
+}
+
+header img {
+  opacity: 0.6;
+  width: 20%;
+  border-radius: 50%;
+  margin-bottom: 1em;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003108;
+  }
+}
+
+header img:hover {
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+  opacity: 1.0;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003115;
   }
 }
 
@@ -268,7 +303,7 @@ header .sub-head {
   }
 
   line {
-    font-family: \00003109;
+    font-family: \00003122;
   }
 }
 
@@ -285,7 +320,7 @@ header .sub-head {
   }
 
   line {
-    font-family: \00003116;
+    font-family: \00003129;
   }
 }
 
@@ -302,7 +337,7 @@ header .sub-head {
   }
 
   line {
-    font-family: \00003123;
+    font-family: \00003136;
   }
 }
 
@@ -319,7 +354,7 @@ header .sub-head {
   }
 
   line {
-    font-family: \00003130;
+    font-family: \00003143;
   }
 }
 
@@ -335,7 +370,7 @@ header .sub-head {
   }
 
   line {
-    font-family: \00003136;
+    font-family: \00003149;
   }
 }
 
@@ -351,7 +386,7 @@ span.cap {
     }
 
     line {
-      font-family: \00003147;
+      font-family: \00003160;
     }
 }
 
@@ -366,7 +401,7 @@ span.cap {
     }
 
     line {
-      font-family: \00003151;
+      font-family: \00003164;
     }
 }
 
@@ -384,7 +419,7 @@ span.cap {
     }
 
     line {
-      font-family: \00003155;
+      font-family: \00003168;
     }
 }
 
@@ -400,7 +435,7 @@ span.cap {
     }
 
     line {
-      font-family: \00003162;
+      font-family: \00003175;
     }
 }
 
@@ -415,7 +450,7 @@ span.cap {
     }
 
     line {
-      font-family: \00003166;
+      font-family: \00003179;
     }
 }
 
@@ -433,7 +468,7 @@ span.cap {
     }
 
     line {
-      font-family: \00003170;
+      font-family: \00003183;
     }
 }
 
