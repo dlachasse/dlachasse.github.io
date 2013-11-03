@@ -379,20 +379,34 @@ span.cap {
   font-variant: small-caps;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 200px) {
 @media -sass-debug-info {
     filename {
       font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
     }
 
     line {
-      font-family: \00003160;
+      font-family: \00003161;
+    }
+}
+
+  header img {
+    width: 50%;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003166;
     }
 }
 
   body,
   li {
-    font: 18px/25px "Adelle", serif;
+    font: 16px/22px "Adelle", serif;
   }
 
 @media -sass-debug-info {
@@ -401,16 +415,17 @@ span.cap {
     }
 
     line {
-      font-family: \00003164;
+      font-family: \00003170;
     }
 }
 
+  header.sub-head,
   .about,
   .work,
   .experience,
   .goals,
   #contact {
-    width: 80%;
+    width: 95%;
   }
 
 @media -sass-debug-info {
@@ -419,7 +434,7 @@ span.cap {
     }
 
     line {
-      font-family: \00003168;
+      font-family: \00003174;
     }
 }
 
@@ -435,7 +450,21 @@ span.cap {
     }
 
     line {
-      font-family: \00003175;
+      font-family: \00003182;
+    }
+}
+
+  header img {
+    width: 40%;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003187;
     }
 }
 
@@ -450,16 +479,17 @@ span.cap {
     }
 
     line {
-      font-family: \00003179;
+      font-family: \00003191;
     }
 }
 
+  header.sub-head,
   .about,
   .work,
   .experience,
   .goals,
   #contact {
-    width: 70%;
+    width: 90%;
   }
 
 @media -sass-debug-info {
@@ -468,7 +498,7 @@ span.cap {
     }
 
     line {
-      font-family: \00003183;
+      font-family: \00003195;
     }
 }
 
