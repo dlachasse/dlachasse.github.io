@@ -1,0 +1,173 @@
+@import "./colors.scss";
+@import "./sizes.scss";
+
+.browsehappy {
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+  background: #ccc;
+  color: #000;
+}
+
+// 
+// GLOBAL
+// 
+
+html {
+  background-color: $light;
+  color: $dark;
+}
+
+body {
+  margin: 0;
+  font: 24px/35px "Adelle", serif;
+}
+
+a {
+  color: $accent;
+}
+
+li {
+  font: 24px/35px "Adelle", serif;
+}
+
+p {
+  margin: 0 auto;
+}
+
+// 
+// TYPE
+// 
+
+h1,h2,h3,h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1 {
+  color: $accent;
+  text-shadow: 8px 8px 0px rgba(0,0,0,0.3);
+  font-size: 148px;
+  // line-height: 200px;
+
+}
+
+#title {
+  line-height: 0;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font: bold 48px/67px "Source Sans Pro", sans-serif;
+}
+
+h3 {
+  font: 100 italic 28px "Adelle", serif;
+}
+
+#sub-title {
+  color: $accent;
+  border-top: 1px solid $light;
+  margin: 0 auto;
+  width: $sublarge;
+  padding: 0.5em 0 4em 0;
+  font-variant: small-caps;
+}
+
+p.label {
+  display: inline;
+  letter-spacing: 2px;
+  font: small-caps 24px/35px "Adelle", serif;
+}
+
+p.value {
+  display: inline;
+}
+
+// 
+// SECTION SPECIFIC
+// 
+
+header {
+  margin: 0 auto;
+  padding: 5em 0;
+  background-color: $dark;
+  color: $light;
+  text-align: center;
+
+  .sub-head {
+    margin: 0 auto;
+    width: 60%;
+  }
+}
+
+.about {
+  margin: 0 auto;
+  padding: 6em 0;
+  width: $large;
+  border-bottom: thin solid;
+}
+
+.work {
+  margin: 0 auto;
+  padding: 6em 0;
+  width: $large;
+  border-bottom: thin solid;
+}
+
+.experience {
+  margin: 0 auto;
+  padding: 6em 0;
+  width: $large;
+  border-bottom: thin solid;
+}
+
+.goals {
+  margin: 0 auto;
+  padding: 6em 0;
+  width: $large;
+  border-bottom: thin solid;
+}
+
+#contact {
+  margin: 0 auto;
+  padding: 6em 0 12em 0;
+  width: $large;
+}
+
+span.cap {
+  letter-spacing: 1px;
+  font-variant: small-caps;
+}
+
+// 
+// MEDIA QUERIES
+// 
+
+@media only screen and (max-width: 480px) {
+
+  body, li {
+    font: 18px/25px "Adelle", serif;
+  }
+
+  .about, .work, .experience, .goals, #contact {
+    width: 80%;
+  }
+
+  #sub-title {
+    width: $subsmall;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+
+  body, li {
+    font: 21px/29px "Adelle", serif;
+  }
+
+  .about, .work, .experience, .goals, #contact {
+    width: 70%;
+  }
+
+  #sub-title {
+    width: $submid;
+  }
+}
