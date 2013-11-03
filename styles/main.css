@@ -1,0 +1,443 @@
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \000034;
+  }
+}
+
+.browsehappy {
+  margin: 0.2em 0;
+  padding: 0.2em 0;
+  background: #ccc;
+  color: #000;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000315;
+  }
+}
+
+html {
+  background-color: #fffefa;
+  color: #2f3332;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000320;
+  }
+}
+
+body {
+  margin: 0;
+  font: 24px/35px "Adelle", serif;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000325;
+  }
+}
+
+a {
+  color: #4fd6ac;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000329;
+  }
+}
+
+li {
+  font: 24px/35px "Adelle", serif;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000333;
+  }
+}
+
+p {
+  margin: 0 auto;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000341;
+  }
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000345;
+  }
+}
+
+h1 {
+  color: #4fd6ac;
+  text-shadow: 8px 8px 0px rgba(0, 0, 0, 0.3);
+  font-size: 148px;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000353;
+  }
+}
+
+#title {
+  line-height: 0;
+  margin-bottom: 0.5em;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000358;
+  }
+}
+
+h2 {
+  font: bold 48px/67px "Source Sans Pro", sans-serif;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000362;
+  }
+}
+
+h3 {
+  font: 100 italic 28px "Adelle", serif;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000366;
+  }
+}
+
+#sub-title {
+  color: #4fd6ac;
+  border-top: 1px solid #fffefa;
+  margin: 0 auto;
+  width: 40%;
+  padding: 0.5em 0 4em 0;
+  font-variant: small-caps;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000375;
+  }
+}
+
+p.label {
+  display: inline;
+  letter-spacing: 2px;
+  font: small-caps 24px/35px "Adelle", serif;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000381;
+  }
+}
+
+p.value {
+  display: inline;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000389;
+  }
+}
+
+header {
+  margin: 0 auto;
+  padding: 5em 0;
+  background-color: #2f3332;
+  color: #fffefa;
+  text-align: center;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \0000396;
+  }
+}
+
+header .sub-head {
+  margin: 0 auto;
+  width: 60%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003102;
+  }
+}
+
+.about {
+  margin: 0 auto;
+  padding: 6em 0;
+  width: 50%;
+  border-bottom: thin solid;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003109;
+  }
+}
+
+.work {
+  margin: 0 auto;
+  padding: 6em 0;
+  width: 50%;
+  border-bottom: thin solid;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003116;
+  }
+}
+
+.experience {
+  margin: 0 auto;
+  padding: 6em 0;
+  width: 50%;
+  border-bottom: thin solid;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003123;
+  }
+}
+
+.goals {
+  margin: 0 auto;
+  padding: 6em 0;
+  width: 50%;
+  border-bottom: thin solid;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003130;
+  }
+}
+
+#contact {
+  margin: 0 auto;
+  padding: 6em 0 12em 0;
+  width: 50%;
+}
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+  }
+
+  line {
+    font-family: \00003136;
+  }
+}
+
+span.cap {
+  letter-spacing: 1px;
+  font-variant: small-caps;
+}
+
+@media only screen and (max-width: 480px) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003147;
+    }
+}
+
+  body,
+  li {
+    font: 18px/25px "Adelle", serif;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003151;
+    }
+}
+
+  .about,
+  .work,
+  .experience,
+  .goals,
+  #contact {
+    width: 80%;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003155;
+    }
+}
+
+  #sub-title {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 860px) {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003162;
+    }
+}
+
+  body,
+  li {
+    font: 21px/29px "Adelle", serif;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003166;
+    }
+}
+
+  .about,
+  .work,
+  .experience,
+  .goals,
+  #contact {
+    width: 70%;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/\/Users\/davidlachasse\/Dev\/resume\/app\/styles\/main\.scss;
+    }
+
+    line {
+      font-family: \00003170;
+    }
+}
+
+  #sub-title {
+    width: 50%;
+  }
+}
