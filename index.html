@@ -22,7 +22,7 @@
 
     <header>
       <img src="./images/headshot.png">
-      <h3 id="sub-title">the résumé of david la chasse</h3>
+      <h4 id="sub-title">the résumé of david la chasse</h4>
 
       <div class="sub-head">
         <p>I&#8217;ve put together this page to tell you about myself and list a few of my qualifications; because the thought of putting together a résumé based off some impersonal template just didn&#8217;t feel right. Please feel free to <a href="#contact">contact</a> me.</p>
@@ -34,27 +34,39 @@
       <h2>A little bit about me</h2>
       <p>In the years since I graduated from high school (in 2005) I&#8217;ve had many thoughts about what I wanted to do with my life. In college I dabbled in subjects ranging from engineering to photography to film. My studies, life experiences and interests have helped me take a more honest perspective on my strengths &#8212; technical work.</p>
 
-      <p>About a year ago, I made a conscious effort to invest my time into learning a programming language. Around the same time, a friend approached me about helping him build an open source bill of materials tool for 3D printing projects. So we spent some time learning PHP and mashing the thing together (<a href="https://github.com/cdaringe/repchill/tree/master/www">link</a>). The language felt all wrong, though &#8212; the syntax made it surprisingly difficult to write readable code. So I decided to try another language out. I was interested in developing for the web and had heard a little about Rails. I found a couple books (<span class="cap">rails tutorial</span> and <span class="cap">learn ruby the hard way</span>) and gleaned enough information to build an RSS reader.</p>
+      <p>About a year ago, I made a conscious effort to invest my time into learning a programming language that was known to work well on the web. Around the same time, a friend approached me about helping him build an open source bill of materials tool for 3D printing projects. So we spent some time learning PHP and mashing the thing together (<a href="https://github.com/cdaringe/repchill/tree/master/www">link</a>). The language felt all wrong, though &#8212; the syntax made it surprisingly difficult to write readable code. So I decided to try another language out. Since I was interested in developing for the web and had heard a little about Rails, I thought I would give it a shot. I found a couple books (<span class="cap">rails tutorial</span> and <span class="cap">learn ruby the hard way</span>) and gleaned enough information begin building some of my own projects.</p>
     </div>
 
     <div class="experience">
       <h2>Previous work experience</h2>
-      <p>I&#8217;ve spent the past 6 years working at a small online apparel (Blank Apparel) retailer selling exclusively on Amazon. I&#8217;ve had the chance to do things from printing t-shirts to desiging a proprietary warehouse inventory system.</p>
+      <p>I&#8217;ve spent the past 6 years working at a small online apparel (Blank Apparel) retailer selling exclusively on Amazon. I&#8217;ve had the chance to do things from printing t-shirts to desiging, building and implementing a proprietary warehouse inventory system.</p>
 
-      <p>The position has provided me my first opportunity to program. When I first took the position I was tasked with building huge text inventory files in Excel and learned to automate simple actions with Visual Basic and slowly worked my way up to more complicated macros. Over time I&#8217;ve been able to create a number programs we use daily.</p>
+      <p>The position has provided me my first opportunity to program. When I first took the position I was tasked with building huge text inventory files in Excel. I began to automate simple actions with Visual Basic and slowly worked my way up to more complicated patterns.</p>
 
-      <p>After learning enough Ruby I was able to put together a utility to assist with some inventory synchronization issues that had been plaguing the business. I also built a couple other utilities that do some web scraping as well as log and analyze pricing changes on Amazon.</p>
+      <p>I also have learned quite a bit of <span class="cap">SQL</span> knowledge. Our product database is stored on a SQL Server database and I'm running queries every day &#8212; often discovering new functions to retreive the data I need.</p>
+
+      <p>After being exposed to these aspects of our business, I found there was so much I could do through automation. In learning to program, I was providing myself a variety of tools that could quickly accomplish tasks that would take an individual an inordinate amount of time.</p>
     </div>
 
     <div class="work">
       <h2>Some projects I&#8217;ve worked on</h2>
-      <p>The only things I&#8217;ve written that are worth showing are in Ruby. though, I&#8217;ve written a little bit of <span class="cap">php</span>, <span class="cap">visual basic</span> and <span class="cap">visual basic .net</span>, <span class="cap">javascript</span> and just toyed with a few others. To see (a limited selection) of things I&#8217;ve worked on you can go to my Github <a href="https://github.com/dlachasse">page</a> or check out my blog <a href="http://onedrillion.com">One Drillion</a>. Here are some other snippets of code I&#8217;ve written:</p>
+      <p>The only things I&#8217;ve written that are worth showing are in Ruby. Though, I&#8217;ve written a little bit of <span class="cap">php</span>, <span class="cap">visual basic</span> and <span class="cap">visual basic .net</span>, <span class="cap">javascript</span> and just toyed with a few others. To see (a limited selection) of things I&#8217;ve worked on you can go to my Github <a href="https://github.com/dlachasse">page</a> or check out my blog <a href="http://onedrillion.com">One Drillion</a>. Here are some of my projects with code samples:</p>
 
-      <ul>
-        <li>A <a href="https://www.dropbox.com/s/9vb58t52mpf3dxz/article.rb">model</a> from the RSS reader 
-        <li>A <a href="https://www.dropbox.com/s/ew71y1ye37zbct7/mws.rb">class</a> from one of the aforementioned utilities. It is an inventory synchronization tool that interfaces with Amazon&#8217;s Merchant Web Services API</li>
-        <li>A <a href="https://www.dropbox.com/s/hykkujed822ziev/reprice.rb">side project</a> I've been working on that will modify our price on Amazon based off of competing offers.</a>
-      </ul>
+      <div class="projects">
+        <h3>Repricer</h3>
+        <p>This project began as a simple test to see if I could retreive some pricing info from the Amazon API. Many merchants on Amazon will price their products with little to no margin. Sometimes this is due to mismanaged repricing software. So, I put in a little bit of logic to see if it&#8217;s worth it to lower our price to stay competitive with these other sellers. This is probably the most recent project I've worked on and the most accurate representation of my current abilities. Here's a <a href="https://www.dropbox.com/s/hykkujed822ziev/reprice.rb">sample</a> from it.</p>
+
+        <h3>Tidal</h3>
+        <p>A friend and I had been complaining about Google Reader for years. We were unhappy with the interface and wanted something a bit simpler. I had just gone through the Rails Tutorial book at this point and he proposed we set out to create the reader using Rails.</p>
+        <p>Fortunately for me, there was the Feedzirra library. It effectively handles large amounts of feeds. I was able to set it up with Resque and a cron job to continuously pull in new articles from followed feeds. I also learned to import and parse <span class="cap">opml</span> files with Nokogiri.</p>
+        <p>Here's a <a href="https://www.dropbox.com/s/9vb58t52mpf3dxz/article.rb">model</a> from it. I've recently been learning of the importance of keeping methods small. This has made me want to go back and refactor a lot of the application :)</p>
+
+        <h3>Inventory Syncronizer</h3>
+        <p>At my current job, we sell exclusively on Amazon and we do a lot of drop-shipping. We were having a lot of issues accidentally overselling items that weren&#8217;t actually in stock due to outdated inventory information.</p>
+        <p>At the time, the process of uploading an inventory file consisted of manually importing and modifying huge <span class="cap">csv</span> files in Excel. It was a hassle to say in the least, and not nearly timley enough. I had been learning Ruby and thought I might take a little bit of time to see if I could automate at least a <em>part</em> of the process.</p>
+        <p>All of these files are accessed differently &#8212; whether that be navigating a website, pulling via <span class="cap">ftp</span> or <span class="cap">ftps</span> via <span class="cap">tls</span>. After much trial and error, I was able to get them all to import properly. Since I had made it that far, I decided I'd try to follow through and automate the whole process. The utility now pulls down, parses the <span class="cap">csv</span>, injects values into our database and pushes back out to Amazon&#8217;s Inventory <span class="cap">api</span>.</p>
+        <p>Here is a small sample <a href="https://www.dropbox.com/s/ew71y1ye37zbct7/mws.rb">class</a> from the utility.</p>
+      </div> <!-- projects -->
     </div>
 
 
@@ -70,7 +82,7 @@
       <p>Thanks for your time. I appreciate you making it all the way down here. If you would like to speak further, here is my contact information.</p>
       <p class="label">phone</p>:<p class="value"> (503) 467-1510</p>
       <br>
-      <p class="label">email</p>:<p class="value"> david.lachasse@gmail.com</p>
+      <p class="label">email</p>:<p class="value"> david.lachasse at gmail.com</p>
     </div>
 
   <!-- build:js scripts/vendor.js -->
