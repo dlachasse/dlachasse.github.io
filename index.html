@@ -34,7 +34,7 @@
       <h2>A little bit about me</h2>
       <p>In the years since I graduated from high school (in 2005) I&#8217;ve had many thoughts about what I wanted to do with my life. In college I dabbled in subjects ranging from engineering to photography to film. My studies, life experiences and interests have helped me take a more honest perspective on my strengths &#8212; technical work.</p>
 
-      <p>About a year ago, I made a conscious effort to invest my time into learning a programming language that was known to work well on the web. Around the same time, a friend approached me about helping him build an open source bill of materials tool for 3D printing projects. So we spent some time learning PHP and mashing the thing together (<a href="https://github.com/cdaringe/repchill/tree/master/www">link</a>). The language felt all wrong, though &#8212; the syntax made it surprisingly difficult to write readable code. So I decided to try another language out. Since I was interested in developing for the web and had heard a little about Rails, I thought I would give it a shot. I found a couple books (<span class="cap">rails tutorial</span> and <span class="cap">learn ruby the hard way</span>) and gleaned enough information begin building some of my own projects.</p>
+      <p>Towards the beginning of 2013, I made a conscious effort to invest my time into learning a programming language that was known to work well on the web. Around the same time, a friend approached me about helping him build an open source bill of materials tool for 3D printing projects. So we spent some time learning PHP and mashing the thing together (<a href="https://github.com/cdaringe/repchill/tree/master/www">link</a>). The language felt all wrong, though &#8212; the syntax made it surprisingly difficult to write readable code. So I decided to try another language out. Since I was interested in developing for the web and had heard a little about Rails, I thought I would give it a shot. I found a couple books (<span class="cap">rails tutorial</span> and <span class="cap">learn ruby the hard way</span>) and gleaned enough information begin building some of my own projects.</p>
     </div>
 
     <div class="experience">
@@ -50,16 +50,15 @@
 
     <div class="work">
       <h2>Some projects I&#8217;ve worked on</h2>
-      <p>The only things I&#8217;ve written that are worth showing are in Ruby. Though, I&#8217;ve written a little bit of <span class="cap">php</span>, <span class="cap">visual basic</span> and <span class="cap">visual basic .net</span>, <span class="cap">javascript</span> and just toyed with a few others. To see (a limited selection) of things I&#8217;ve worked on you can go to my Github <a href="https://github.com/dlachasse">page</a> or check out my blog <a href="http://onedrillion.com">One Drillion</a>. Here are some of my projects with code samples:</p>
+      <p>The only things I&#8217;ve written that are worth showing are in Ruby. Though, I&#8217;ve written a little bit of <span class="cap">php</span>, <span class="cap">visual basic</span> and <span class="cap">visual basic .net</span>, <span class="cap">javascript</span> and just toyed with a few others. To see (a limited selection) of things I&#8217;ve worked on you can visit my Github <a href="https://github.com/dlachasse">page</a> or check out my blog <a href="http://onedrillion.com">One Drillion</a>. Here are some of my projects with code samples.</p>
 
       <div class="projects">
         <h3>Repricer</h3>
         <p>This project began as a simple test to see if I could retreive some pricing info from the Amazon API. Many merchants on Amazon will price their products with little to no margin. Sometimes this is due to mismanaged repricing software. So, I put in a little bit of logic to see if it&#8217;s worth it to lower our price to stay competitive with these other sellers. This is probably the most recent project I've worked on and the most accurate representation of my current abilities. Here's a <a href="https://www.dropbox.com/s/hykkujed822ziev/reprice.rb">sample</a> from it.</p>
 
-        <h3>Tidal</h3>
-        <p>A friend and I had been complaining about Google Reader for years. We were unhappy with the interface and wanted something a bit simpler. I had just gone through the Rails Tutorial book at this point and he proposed we set out to create the reader using Rails.</p>
-        <p>Fortunately for me, there was the Feedzirra library. It effectively handles large amounts of feeds. I was able to set it up with Resque and a cron job to continuously pull in new articles from followed feeds. I also learned to import and parse <span class="cap">opml</span> files with Nokogiri.</p>
-        <p>Here's a <a href="https://www.dropbox.com/s/9vb58t52mpf3dxz/article.rb">model</a> from it. I've recently been learning of the importance of keeping methods small. This has made me want to go back and refactor a lot of the application :)</p>
+        <h3>Fulfillment by Amazon reconciliation tool</h3>
+        <p>At my current job, we have to continually check our inventory that&#8217;s held at Amazon&#8217;s fulfillment centers. Amazon does the job of keeping inventory of our items that are held there, but as soon as we run out of inventory we need to update our seller account with the quantities that we have in our warehouse.</p>
+        <p>I needed to figure out to set a flag for products that run out of stock. So I created a tool to check daily for newly out-of-stock items. It can be found on <a href="https://github.com/dlachasse/fba_reconciler">Github</a>.
 
         <h3>Inventory Syncronizer</h3>
         <p>At my current job, we sell exclusively on Amazon and we do a lot of drop-shipping. We were having a lot of issues accidentally overselling items that weren&#8217;t actually in stock due to outdated inventory information.</p>
@@ -72,8 +71,9 @@
 
     <div class="goals">
       <h2>Some of my goals</h2>
-      <p>I am eager to continue increasing abilities as a developer. I feel I can accomplish many tasks on my own &#8212; what I seek to improve is an understanding of best practices, how to structure my code effectively and to be able to cover an application with well written tests. This is where I need mentorship or oversight from experienced engineers.</p>
+      <p>I am eager to continue increasing abilities as a developer. I feel I can accomplish many tasks on my own &#8212; what I seek to improve is an understanding of best practices, how to structure my code effectively and to be able to fully cover an application with well written tests. This is where I need mentorship or oversight from experienced engineers.</p>
       <p>Additionally, I&#8217;ve spent much of my work life working independently and isolated from technical-minded peers. This is something I&#8217;m hoping to change. To be able to surround myself with intelligent, foward thinking individuals.</p>
+      <p>Some good coffee at work might be nice too!</p>
     </div>
 
     <div id="contact">
@@ -98,7 +98,7 @@
     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
     e.src='//www.google-analytics.com/analytics.js';
     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-    ga('create','UA-45444083-1', 'dlachasse.github.io');ga('send','pageview');
+    ga('create','UA-XXXXX-X');ga('send','pageview');
   </script>
 
   <!-- build:js scripts/main.js -->
