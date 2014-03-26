@@ -70,9 +70,9 @@ a {
 }
 
 a:hover {
+  color: #2f3332;
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
-  color: #2f3332;
 }
 
 @media -sass-debug-info {
@@ -147,8 +147,8 @@ h1 {
 }
 
 #title {
-  line-height: 0;
   margin-bottom: 0.5em;
+  line-height: 0;
 }
 
 @media -sass-debug-info {
@@ -204,8 +204,8 @@ h4 {
 }
 
 em {
-  font-weight: 600;
   letter-spacing: -1px;
+  font-weight: 600;
 }
 
 @media -sass-debug-info {
@@ -219,11 +219,11 @@ em {
 }
 
 #sub-title {
-  color: #4fd6ac;
-  border-top: 1px solid #fffefa;
   margin: 0 auto;
-  width: 80%;
   padding: 0.5em 0 3em 0;
+  width: 80%;
+  border-top: 1px solid #fffefa;
+  color: #4fd6ac;
   font-variant: small-caps;
 }
 
@@ -283,10 +283,36 @@ p.value {
 
 header {
   margin: 0 auto;
-  padding-top: 1em;
+  padding: 2em 0 1em 0;
   background-color: #2f3332;
   color: #fffefa;
   text-align: center;
+}
+
+nav ul {
+  margin: 3em 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav li {
+  font-family: "Source Sans Pro", sans-serif;
+  display: inline;
+  margin: 0 1.5em;
+}
+
+nav li a {
+  background-color: #4fd6ac;
+  padding: 0.85em;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #2f3332;
+}
+
+nav li a:hover {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
 }
 
 @media -sass-debug-info {
@@ -315,10 +341,10 @@ header .sub-head {
 }
 
 header img {
-  opacity: 0.6;
+  margin-bottom: 1em;
   width: 50%;
   border-radius: 50%;
-  margin-bottom: 1em;
+  opacity: 0.6;
   -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
 }
@@ -334,9 +360,9 @@ header img {
 }
 
 header img:hover {
+  opacity: 1.0;
   -webkit-transition: opacity 0.5s ease;
   transition: opacity 0.5s ease;
-  opacity: 1.0;
 }
 
 @media -sass-debug-info {
