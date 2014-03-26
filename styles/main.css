@@ -122,6 +122,7 @@ nav li a {
 }
 
 nav li a:hover {
+  color: #4fd6ac;
   opacity: 0.7;
   transition: opacity 0.3s ease;
 }
